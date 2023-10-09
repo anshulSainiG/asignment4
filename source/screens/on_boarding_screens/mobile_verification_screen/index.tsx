@@ -20,7 +20,6 @@ const VerifyNumber=({navigation}:Log_InSignUpProps)=> {
   const useConx = useContext(createCox);
   const [showmodal, setShowmodal] = useState(false)
   const[countryname, setCountryname]=useState('')
-  // const[number,setNumber]=useState('')
   function pressHandler() {
     if (countryname!== '') {
       navigation.navigate("LOGIn1")
